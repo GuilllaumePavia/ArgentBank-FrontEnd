@@ -1,0 +1,38 @@
+.header-orga {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 95%;
+   height: 60px;
+
+}
+
+.logos-orga {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+@media screen and (max-width:375px) {
+
+    .header-orga {
+        display: flex;
+        justify-content:center;
+        width: 0%;
+    }
+    
+    .logos-orga {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: relative;
+        left: 50px;
+    }
+
+    .logocontainer-responsive {
+        position: relative;
+        left: 50px;
+    }
+
+}

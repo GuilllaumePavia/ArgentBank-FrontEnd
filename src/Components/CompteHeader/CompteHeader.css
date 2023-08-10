@@ -1,0 +1,36 @@
+.HeaderCompte {
+    display: flex;
+    width: 90%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.LogoHeaderCompte {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    gap:10px;
+}
+
+.OptionsHeaderCompte {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:15px;
+}
+
+.i-color {
+    color: #5dc074;
+    transform: scale(2);
+}
+
+.rouage {
+    transform: scale(0.4);
+}

@@ -1,0 +1,14 @@
+.espaceclient-login {
+    background-color: #12002b;
+    display: flex;
+    flex-direction: column; 
+   padding: 50px 0px 0px 0px;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 34px;
+    color: white;
+}

@@ -1,0 +1,23 @@
+.logo-logo {
+    transform: scale(0.45);
+    position: relative;
+    right: 80px;
+}
+
+@media screen and (max-width:800px) {
+
+    .logo-logo {
+        right: 90px; 
+    }
+  
+  }
+
+@media screen and (max-width:375px) {
+
+    .logo-logo {
+        transform: scale(0.3);
+        position: relative;
+        left: 130px;
+    }
+  
+  }

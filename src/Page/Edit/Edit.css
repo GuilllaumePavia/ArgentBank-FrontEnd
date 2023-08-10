@@ -1,0 +1,11 @@
+.Editinput-orga {
+    margin-top: 50px;
+}
+
+
+@media screen and (max-width:375px) {
+
+    .Editinput-orga {
+        margin-top: 25px;
+    }
+}

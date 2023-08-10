@@ -1,0 +1,37 @@
+.orga-box-user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+}
+
+.Edit-Name-Style {
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-color: #00bc77;
+    background-color: #00bc77;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 40px;
+    padding: 15px;
+    font-size: 14px;
+
+}
+
+
+/* @media screen and (max-width:375px) {
+
+   
+  
+} */

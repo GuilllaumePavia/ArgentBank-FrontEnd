@@ -1,0 +1,118 @@
+.Tableur {
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+
+.Ligne-Index {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: black;
+}
+
+.Ligne-Index-Partie1 {
+    display: flex; 
+    gap: 125px;
+    justify-content: flex-start;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.Ligne-Index-Partie2 {
+    display: flex; 
+    gap: 40px;
+    justify-content: flex-end;
+    padding-right: 110px;
+}
+
+.Ligne {
+    background-color: #5dc074;
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+.Ligne-Tableau {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.Ligne-Tableau1 {
+    display: flex; 
+    justify-content: flex-start;
+    width: 100%;
+    gap: 90px;
+    padding-left: 10px;
+}
+
+.Ligne-Tableau2 {
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;  
+    padding-right: 10px; 
+}
+
+.Ligne-Tableau-Option {
+    color: white;
+    padding: 0;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column; 
+    display: flex;
+    flex-direction: row;
+    gap:35px;
+}
+
+.Ligne-Tableau-Option p{
+    margin-top:3px;
+    margin-bottom:3px;
+}
+
+.Option-colonne1 {
+    color: rgb(203, 225, 249);
+}
+
+.Option-colonne3 {
+  display: flex;
+  flex-direction: column;
+  gap:0px;
+  position: relative;
+  top:15px;
+  right: 40px;
+}
+
+.Chevron {
+    font-size: 17px;
+    transform: rotate(180deg);
+    width: 30px;
+    height: 30px;
+}
+
+.Crayon {
+    transform: scale(0.1);
+    width: 30px;
+    height: 30px
+}
+
+.crayon1 {
+    position: relative;
+    right: 550px;
+}
+
+.crayon2 {
+    position: relative;
+    bottom: 60px;
+}
+
+
+
+

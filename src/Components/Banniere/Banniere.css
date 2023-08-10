@@ -1,0 +1,26 @@
+.banniere-orga {
+   width: 100%;
+   height: 470px;
+   overflow: hidden;
+}
+
+.banniere-img{
+    position: relative;
+    bottom:200px;
+}
+
+@media screen and (max-width:375px) {
+
+    .banniere-orga {
+       
+        overflow: hidden;
+        transform: scale(1); 
+     }
+
+     .banniere-img{
+        position: relative;
+        
+        right: 400px;
+    }
+         
+      }

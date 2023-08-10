@@ -1,0 +1,17 @@
+.logo-sign {
+    transform: scale(1.8);
+}
+
+.sign-out {
+    display: flex;
+    gap: 10px;
+}
+
+
+@media screen and (max-width:375px) {
+
+.sign {
+ width: 100px;
+}
+  
+  }
